@@ -1,0 +1,53 @@
+.body{
+    background-color: #F2ECE4;
+}
+
+.container__tarefas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    background-image: linear-gradient(to right bottom, #8c3286, #87347b, #813571, #7a3768, #73395f);
+    border-radius: 20px;
+    height: 320px;
+    margin: 0 auto;
+}
+
+.container__form{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.form__label{
+    padding-top: 20px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-family: "Roboto", sans-serif;
+}
+
+.form__input{
+    border-radius: 8px;
+    padding: 5px;
+    background-color: transparent;
+    color: white;
+    border-color:  white;;
+}
+
+.container-radio{
+    padding-top: 10px;
+    color: white;
+}
+
+.botao-cadastrar{
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
